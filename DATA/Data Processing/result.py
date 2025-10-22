@@ -62,7 +62,7 @@ def get_result(date, race_name, race_type):
             
         
         # Create the database folder if it doesn't exist
-            database_folder = r"C:\Users\dhira\OneDrive\Desktop\Projects\Project_F1\DATA\DataBase"
+            database_folder = fr"C:\Users\dhira\OneDrive\Desktop\Projects\Project_F1\DATA\DataBase\Results\{year}\Race"
             os.makedirs(database_folder, exist_ok=True)
         
         # Create filename with race details and timestamp to avoid conflicts
