@@ -2,7 +2,7 @@ import fastf1
 import pandas as pd
 import os
 
-def get_race_result(date, race_name, race_type):
+def get_sprint_result(date, race_name, race_type):
     
     # Convert date to integer for fastf1
     year = int(date)

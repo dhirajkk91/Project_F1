@@ -4,7 +4,7 @@ from race_result import get_race_result
 from qualifying_result import get_qualifying_result
 from sprint_result import get_sprint_result
 
-Year = [2025 ,2024, 2023, 2022, 2021, 2020, 2019, 2018, 2017]
+Year = [2025 ,2024, 2023, 2022, 2021, 2020, 2019, 2018]
 race_type = ["R", "Q", "S"]
 
 for year in Year:
